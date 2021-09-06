@@ -66,6 +66,7 @@ public class Main {
             System.out.println("未获得java-decompiler jar包路径，可能以下情况导致:");
             System.out.println("1.未安装IDEA");
             System.out.println("2.已安装IDEA,未安装Java Bytecode Decompiler(Java Decompiler)插件");
+            System.out.println("3.未配置IDEA环境变量,环境变量key=IntelliJ IDEA,value=IDEA安装目录下的bin目录");
             System.out.println("安装后重新启动程序  或者   直接手动输入!!!!!!!");
             System.out.printf("请输入java-decompiler jar包路径【必填】：");
             javaDecompilerPath= input.nextLine();
